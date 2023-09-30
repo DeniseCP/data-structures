@@ -12,7 +12,7 @@ const array = Array.from({ length: 100 }, () => Math.floor(Math.random() * 101))
  * @param {number} inputNumber
  * @returns {number}
  */
-const binarySearch = (data, inputNumber) => {
+export const binarySearch = (data, inputNumber) => {
     // checks if data and input number exists
     if (!data || data.length === 0 ||
         !isNaN(inputNumber)) {
